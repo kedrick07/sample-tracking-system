@@ -5,16 +5,16 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="MOLzJDniJ1RBKo8WeVaI-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Browser" vertex="1">
-          <mxGeometry height="70" width="160" x="90" y="50" as="geometry" />
+          <mxGeometry height="70" width="160" x="140" y="10" as="geometry" />
         </mxCell>
         <mxCell id="MOLzJDniJ1RBKo8WeVaI-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Apache HTTP Server" vertex="1">
-          <mxGeometry height="80" width="160" x="290" y="290" as="geometry" />
+          <mxGeometry height="80" width="160" x="130" y="120" as="geometry" />
         </mxCell>
         <mxCell id="MOLzJDniJ1RBKo8WeVaI-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PHP Application" vertex="1">
-          <mxGeometry height="80" width="160" x="100" y="530" as="geometry" />
+          <mxGeometry height="80" width="160" x="130" y="230" as="geometry" />
         </mxCell>
         <mxCell id="MOLzJDniJ1RBKo8WeVaI-5" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="MariaDB" vertex="1">
-          <mxGeometry height="170" width="120" x="460" y="410" as="geometry" />
+          <mxGeometry height="170" width="120" x="150" y="350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
