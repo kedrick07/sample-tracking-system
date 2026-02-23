@@ -1,0 +1,116 @@
+# ============================================
+# MOH Lab Sample Tracking System
+# ============================================
+
+# ============================================
+# SECURITY - NEVER COMMIT THESE
+# ============================================
+# Database credentials and configuration
+config/database.php
+.env
+.env.local
+.env.production
+
+# Special passwords or sensitive configs
+config/secrets.php
+api-keys.json
+
+# ============================================
+# PHP
+# ============================================
+# Composer dependencies
+vendor/
+composer.lock
+
+# PHP session files
+/tmp/
+*.session
+
+# PHP logs
+*.log
+error_log
+php_errors.log
+
+# ============================================
+# DATABASE
+# ============================================
+# Database backups (if stored locally)
+*.sql
+*.sqlite
+*.db
+backups/*.sql
+
+# phpMyAdmin config
+phpmyadmin/config.inc.php
+
+# ============================================
+# IDE & EDITORS
+# ============================================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PHPStorm / IntelliJ
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ============================================
+# SYSTEM FILES
+# ============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+.directory
+
+# ============================================
+# TEMPORARY & CACHE FILES
+# ============================================
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.cache/
+
+# ============================================
+# UPLOADS & USER FILES
+# ============================================
+# User uploaded files (if you add this feature later)
+uploads/*
+!uploads/.gitkeep
+
+# ============================================
+# APACHE/SERVER
+# ============================================
+# Local Apache configs
+.htaccess.local
+httpd.conf.local
+
+# ============================================
+# NODE MODULES (if using npm)
+# ============================================
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ============================================
+# TESTING
+# ============================================
+phpunit.xml
+.phpunit.result.cache
+coverage/
