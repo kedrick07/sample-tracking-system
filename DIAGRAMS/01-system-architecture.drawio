@@ -1,17 +1,17 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.2">
   <diagram name="Page-1" id="hV499TFmum-NueTog8OI">
-    <mxGraphModel dx="1678" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2377" dy="1245" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="lJ_ddnxdljxNNuiacDMS-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="" vertex="1">
-          <mxGeometry height="830" width="550" x="110" y="70" as="geometry" />
+          <mxGeometry height="730" width="550" x="140" y="360" as="geometry" />
         </mxCell>
         <mxCell id="lJ_ddnxdljxNNuiacDMS-1" edge="1" parent="1" source="MOLzJDniJ1RBKo8WeVaI-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="MOLzJDniJ1RBKo8WeVaI-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MOLzJDniJ1RBKo8WeVaI-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Browser&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Chrome / Firefox / Edge&lt;/div&gt;&lt;div&gt;Makes HTTP requests&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="160" x="320" y="160" as="geometry" />
+          <mxGeometry height="70" width="160" x="350" y="220" as="geometry" />
         </mxCell>
         <mxCell id="lJ_ddnxdljxNNuiacDMS-6" edge="1" parent="1" source="MOLzJDniJ1RBKo8WeVaI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="MOLzJDniJ1RBKo8WeVaI-4">
           <mxGeometry relative="1" as="geometry" />
@@ -19,54 +19,57 @@
         <mxCell id="lJ_ddnxdljxNNuiacDMS-8" edge="1" parent="1" source="MOLzJDniJ1RBKo8WeVaI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="MOLzJDniJ1RBKo8WeVaI-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="280" y="345" />
-              <mxPoint x="280" y="178" />
+              <mxPoint x="310" y="534" />
+              <mxPoint x="310" y="237" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="MOLzJDniJ1RBKo8WeVaI-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Web Server&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Apache HTTP Server (httpd)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Listens on Port 80&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="160" x="320" y="325" as="geometry" />
+          <mxGeometry height="80" width="160" x="350" y="515" as="geometry" />
         </mxCell>
         <mxCell id="MOLzJDniJ1RBKo8WeVaI-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Application Layer&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;PHP 8.4&lt;/div&gt;&lt;div&gt;Processes Logic / talks to database&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="160" x="320" y="500" as="geometry" />
+          <mxGeometry height="90" width="160" x="350" y="690" as="geometry" />
         </mxCell>
         <mxCell id="lJ_ddnxdljxNNuiacDMS-14" edge="1" parent="1" source="MOLzJDniJ1RBKo8WeVaI-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.145;exitY=0;exitDx=0;exitDy=4.35;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="MOLzJDniJ1RBKo8WeVaI-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MOLzJDniJ1RBKo8WeVaI-5" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;align=center;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Database&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;MariaDB 10.11&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Stores all data&lt;/div&gt;" vertex="1">
-          <mxGeometry height="170" width="120" x="340" y="670" as="geometry" />
+          <mxGeometry height="170" width="120" x="370" y="860" as="geometry" />
         </mxCell>
         <mxCell id="lJ_ddnxdljxNNuiacDMS-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="HTTP request&amp;nbsp;&lt;div&gt;(POST /pages/login.php)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="160" x="390" y="260" as="geometry" />
+          <mxGeometry height="30" width="160" x="424" y="400" as="geometry" />
         </mxCell>
         <mxCell id="lJ_ddnxdljxNNuiacDMS-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="HTTP Response&lt;div&gt;(HTML)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="160" x="150" y="250" as="geometry" />
+          <mxGeometry height="30" width="160" x="180" y="440" as="geometry" />
         </mxCell>
         <mxCell id="lJ_ddnxdljxNNuiacDMS-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="passes request + files to execute" vertex="1">
-          <mxGeometry height="30" width="100" x="400" y="430" as="geometry" />
+          <mxGeometry height="30" width="100" x="430" y="620" as="geometry" />
         </mxCell>
         <mxCell id="lJ_ddnxdljxNNuiacDMS-9" edge="1" parent="1" source="MOLzJDniJ1RBKo8WeVaI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.002;entryY=0.687;entryDx=0;entryDy=0;entryPerimeter=0;" target="MOLzJDniJ1RBKo8WeVaI-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="280" y="522" />
-              <mxPoint x="280" y="380" />
+              <mxPoint x="310" y="712" />
+              <mxPoint x="310" y="570" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="lJ_ddnxdljxNNuiacDMS-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Returns rendered HTML" vertex="1">
-          <mxGeometry height="30" width="100" x="180" y="430" as="geometry" />
+          <mxGeometry height="30" width="100" x="210" y="620" as="geometry" />
         </mxCell>
         <mxCell id="lJ_ddnxdljxNNuiacDMS-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SQL Query (SELECT/INSERT)" vertex="1">
-          <mxGeometry height="40" width="100" x="454" y="610" as="geometry" />
+          <mxGeometry height="40" width="100" x="484" y="800" as="geometry" />
         </mxCell>
         <mxCell id="lJ_ddnxdljxNNuiacDMS-13" edge="1" parent="1" source="MOLzJDniJ1RBKo8WeVaI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.855;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;" target="MOLzJDniJ1RBKo8WeVaI-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lJ_ddnxdljxNNuiacDMS-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Query Result (rows/data)" vertex="1">
-          <mxGeometry height="40" width="100" x="240" y="610" as="geometry" />
+          <mxGeometry height="40" width="100" x="270" y="800" as="geometry" />
         </mxCell>
         <mxCell id="lJ_ddnxdljxNNuiacDMS-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Server&lt;div&gt;localhost&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="110" x="90" y="70" as="geometry" />
+          <mxGeometry height="50" width="110" x="120" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Oj2kDm_SBkysh8eE5D5g-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;System Architecture Diagram&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="670" x="79" y="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
